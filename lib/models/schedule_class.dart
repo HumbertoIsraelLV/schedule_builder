@@ -13,7 +13,7 @@ class ScheduleClass {
 
   bool checkOverlaping(ScheduleClass scheduleClass) {
     bool isOverlapped = false;
-    for (String day in ['Mo', 'Tu', 'We', 'Th', 'Fr']) {
+    for (String day in ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa']) {
       if ((schedule?.containsKey(day) ?? false) &&
           (scheduleClass.schedule?.containsKey(day) ?? false)) {
         final DateTime class1StartTime = schedule?[day]?[0] ?? DateTime.now();

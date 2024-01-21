@@ -1,10 +1,6 @@
 import 'package:schedule_builder/models/models.dart';
 
 class ScheduleBuilder {
-  // final String name;
-  // static String staticName = '';
-  // ScheduleBuilder({this.name = ''});
-
   static List<List<ScheduleClass>> generatePermutations(
       List<ScheduleClass> elements) {
     List<List<ScheduleClass>> permutations = [];
