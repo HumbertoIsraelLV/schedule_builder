@@ -70,8 +70,8 @@ class ScheduleBuilder {
         subject: 'Lineal',
         identifier: '1',
         schedule: {
-          'Mo': [DateTime(0, 0, 0, 7), DateTime(0, 0, 0, 9)],
-          'We': [DateTime(0, 0, 0, 7), DateTime(0, 0, 0, 9)],
+          'Mo': [DateTime(0, 0, 0, 7, 30), DateTime(0, 0, 0, 9)],
+          'We': [DateTime(0, 0, 0, 7, 30), DateTime(0, 0, 0, 9)],
         },
       ),
       ScheduleClass(

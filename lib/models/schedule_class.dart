@@ -37,7 +37,7 @@ class ScheduleClass {
   String toString() {
     final parsedSchedule = schedule?.entries
         .map((e) =>
-            '${e.key}: ${e.value[0].hour} hrs. - ${e.value[1].hour} hrs.')
+            '${e.key}: ${e.value[0].hour}:${e.value[0].minute} hrs. - ${e.value[1].hour}:${e.value[1].minute} hrs.')
         .toList();
     return 'Score: $score | Identifier: $identifier | Subject: $subject | Schedule: $parsedSchedule';
   }
